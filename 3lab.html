@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сауляк Даря Юріївна - Персональний сайт</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Стилізація кнопок навігації */
+        nav ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            display: inline-block;
+            background-color: #ff69b4; /* Рожевий колір кнопки */
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #ff1493; /* Темно-рожевий колір при наведенні */
+        }
+
+        /* Internal CSS для зміни вигляду елементів */
+        hr {
+            border: none;
+            border-top: 3px dotted #ff69b4; /* Рожева лінія з точками */
+            width: 70%;
+            margin: 20px auto;
+        }
+
+        h1 {
+            background-color: #ffc0cb; /* Ніжно-рожевий фон */
+            padding: 10px;
+            border-radius: 10px;
+            text-shadow: 1px 1px 3px #333;
+        }
+
+        section {
+            background-color: #ffe4e1; /* Легкий рожевий фон */
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .cat-image {
+            float: left;
+            margin-right: 20px; /* Відступ від тексту */
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Очищення після плаваючого елемента */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body style="background-color: #f5f5dc;">
+    <header>
+        <h1>Персональна сторінка Сауляк Даря Юріївна</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="about.html">Про мене</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Ласкаво просимо на мій сайт!</h2>
+            <p>Цей сайт присвячений мені, моїм інтересам та освіті.</p>
+            <hr> <!-- Перша індивідуальна лінія -->
+            <p>Дізнайтеся більше про мене, переглянувши сторінки вище!</p>
+        </section>
+
+        <section class="clearfix">
+            <!-- Картинка котика зліва -->
+            <img src="https://preview.redd.it/wjmhopidkv871.jpg?auto=webp&s=d683c20553db134ca8f12e51cf7e80f31847bb73" alt="Картинка" class="cat-image"> 
+            <h2>Мої інтереси</h2>
+            <p>Я займаюся веброзробкою, дизайном і люблю вивчати нові технології. Моя мета — створювати інноваційні та зручні у використанні веб-додатки, які відповідають сучасним тенденціям та потребам користувачів.</p>
+            <hr> <!-- Друга індивідуальна лінія -->
+        </section>
+
+        <button style="background-color: #ff69b4; color: #fff;">Дізнатися більше</button> <!-- Inline CSS -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Сауляк Даря Юріївна</p>
+    </footer>
+</body>
+</html>
+
